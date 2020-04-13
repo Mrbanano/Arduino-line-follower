@@ -74,3 +74,18 @@ void Controll(){
     else{Atras();}    
     }
     }
+
+
+void pruebas(){
+  
+  Avanzar();
+  delay(2000);
+  Atras();
+  delay(1000);
+  Avanzar();
+  delay(2000);
+  GirarDer();
+  delay(2000);
+  GirarIzq();
+  delay(2000);
+  }
