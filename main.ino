@@ -44,3 +44,12 @@ void setup() {
   void GirarIzq(){digitalWrite(in1,LOW);digitalWrite(in2,LOW);analogWrite(initM1,v1);digitalWrite(in3,HIGH);digitalWrite(in4,LOW);analogWrite(initM2,v2);delay(100);}
   //1111  
   void Alto    (){digitalWrite(in1,HIGH);digitalWrite(in2,HIGH);analogWrite(initM1,0);digitalWrite(in3,HIGH);digitalWrite(in4,HIGH);analogWrite(initM2,v2);delay(100);}
+
+void Check(){
+
+Serial.print(IR1.lectura(A));Serial.print(IR2.lectura(B));Serial.print("\n \n" );
+//Serial.print("\n leyendo estado sensor A: \n" );
+  //Serial.print("\n leyendo estado sensor B: \n");   
+delay(100); a = IR1.lectura(A); b = IR1.lectura(B);
+
+}
