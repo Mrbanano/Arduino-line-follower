@@ -53,3 +53,24 @@ Serial.print(IR1.lectura(A));Serial.print(IR2.lectura(B));Serial.print("\n \n" )
 delay(100); a = IR1.lectura(A); b = IR1.lectura(B);
 
 }
+
+
+//Metodo de control
+void Controll(){
+  //con el sensor IR que utilizo el (1) significa que esta en negro y (0) que se encontra sobre blanco 
+
+  //si el sensor A esta en negro 
+  if(a==1){
+    //y el sensor B tambien esta en negro
+    if(b==1){Avanzar();}
+    //y el Sensor B ahora esta en blanco
+    else{GirarDer();}
+    } 
+  //si el sensor A esta en blanco
+  if(a==0){
+    //y el sensor B esta en negro
+    if (b==1){GirarIzq();}
+    //y el Sensor B esta en blanco
+    else{Atras();}    
+    }
+    }
