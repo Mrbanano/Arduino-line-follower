@@ -18,3 +18,18 @@
   int in2 = 7;
   int in3 = 8;
   int in4 = 9;
+  //inicializacion 
+void setup() {
+  //VELOCIDAD COMUNICACION SERIAL
+  Serial.begin(9600); 
+  //Declara salida de los motores 
+  pinMode(initM1,OUTPUT);
+  pinMode(initM2,OUTPUT);
+  pinMode(in1,OUTPUT);
+  pinMode(in2,OUTPUT);
+  pinMode(in3,OUTPUT);
+  pinMode(in4,OUTPUT);
+  v1=250;
+  v2=250;
+ delay(2500);
+}
