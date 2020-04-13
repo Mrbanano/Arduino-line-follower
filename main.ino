@@ -89,3 +89,13 @@ void pruebas(){
   GirarIzq();
   delay(2000);
   }
+
+void Main(){
+  Check();
+  Controll();
+  //pruebas();
+  }  
+void loop() {
+  Main();
+  
+  }
