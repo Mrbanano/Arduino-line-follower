@@ -1,6 +1,4 @@
 
-code for the arduino platform to control a line follower
-
 <p align="center">
   <a href="https://github.com/Mrbanano"><img src="https://i.postimg.cc/5NqdKxfX/undraw-drone-surveillance-kjjg.png" height="200"></a>
 </p>
@@ -13,7 +11,7 @@ code for the arduino platform to control a line follower
 
 [Website](https://mrbanano.github.io/navbar-with-search-filter/)
 
- **Arduino-line-follower** is a program written in `C++`, it is used to control a tire robot that moves on a line, either black or white 
+ **Arduino-line-follower** is a program written in `C++`, it is used to control a tire robot that moves on a line, either black or white.
 
 <p align="center">
   <a href="https://github.com/Mrbanano"><img src="https://i.postimg.cc/02zRxLRf/esquemamontaje-Siguelineas2.jpg" height="500"></a>
